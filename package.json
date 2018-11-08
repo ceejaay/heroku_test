@@ -1,0 +1,17 @@
+{
+  "name": "heroku-app",
+  "version": "1.0.0",
+  "description": "testing out a heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon",
+    "test": "server"
+  },
+  "author": "Chad",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
